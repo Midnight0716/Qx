@@ -6,8 +6,8 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/analysis\.20kaka\.cn\/api\/wechat url script-response-body https://raw.githubusercontent.com/Midnight/Rewrite/main/xcx/hmqsy.js
-^https?:\/\/q12\.tuanyougou\.com url script-response-body https://raw.githubusercontent.com/Midnight/Rewrite/main/xcx/hmqsy.js
+^https?:\/\/analysis\.20kaka\.cn\/api\/wechat url script-response-body https://raw.githubusercontent.com/Midnight0716/Qx/main/hmqsy.js
+^https?:\/\/q12\.tuanyougou\.com url script-response-body https://raw.githubusercontent.com/Midnight0716/Qx/main/hmqsy.js
 
 [mitm]
 hostname = analysis.20kaka.cn, q12.tuanyougou.com
