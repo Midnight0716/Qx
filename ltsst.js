@@ -24,6 +24,6 @@ body = body.replace(/\"isActivate":\d+/g,'\"isActivate":1');
 body = body.replace(/\"audioType":\d+/g, '\"audioType":1');
 body = body.replace(/\"isAudition":\d+/g, '\"isAudition":2');
 body = body.replace(/\"userName":".*?"/g,'\"userName":"Midnight"');
-body = body.replace(/\"headUrl":".*?"/g,'\"headUrl":"https://raw.githubusercontent.com/Midnight0716/Qx/main/1.jpg"');
+body = body.replace(/\"headUrl":".*?"/g,'\"headUrl":"https://raw.githubusercontent.com/Midnight0716/Qx/main/fairy.jpg"');
 
 $done({body});
