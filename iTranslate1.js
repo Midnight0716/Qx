@@ -26,9 +26,9 @@ if ($request.url.indexOf(vip) != -1){
       "product_id" : "com.itranslate.pro.01y_07dt_china",
       "bundle_id" : "com.outerspaceapps.itranslate",
       "is_trial_period" : true,
-      "original_transaction_id" : "160001314520000",
-      "expires_date_ms" : 4102390158000,
-      "transaction_id" : "160001314520000"
+      "original_transaction_id" : "730001194725804",
+      "expires_date_ms" : 1721869141000,
+      "transaction_id" : "730001200639172"
     }
   ];
 }
