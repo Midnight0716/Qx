@@ -8,7 +8,7 @@
 **************************************
 
 [rewrite_local]
-^http[s]?:\/\/api.528529.com\/apple_product\/ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/FYQNW.js
+^http[s]?:\/\/api.528529.com\/apple_product\/ url script-response-body https://raw.githubusercontent.com/Midnight0716/Qx/main/fyqnw.js
 
 [mitm] 
 hostname = api.528529.com
