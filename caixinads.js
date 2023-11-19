@@ -6,7 +6,7 @@
 [filter_local]
 host, gg.caixin.com, direct
 [rewrite_local]
-^https?:\/\/gg\.caixin\.com\/s\?z=caixin&op=1&c=3362 url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caixinads.js
+^https?:\/\/gg\.caixin\.com\/s\?z=caixin&op=1&c=3362 url script-response-body https://raw.githubusercontent.com/Midnight0716/Qx/main/caixinads.js
 
 [mitm]
 
