@@ -1,6 +1,6 @@
 {
 "name":"图标", 
-"description":"by Anni", 
+"description":"by 安妮", 
 "icons":
     [
         {"name":"Misty", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/Misty.png"},
@@ -8,10 +8,9 @@
 	{"name":"CherryTV", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/CherryTV.png"},
 	{"name":"Fangyt2", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/Fangyt2.png"},
 	{"name":"Plusemby", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/Plusemby.png"},
-	{"name":"Infinity", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/Infinity.png"},
         {"name":"JuDog1", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/JuDog1.png"},
-	{"name":"CurlyMouse1", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/CurlyMouse1.png"},
 	{"name":"Kuanemby", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/Kuanemby.png"},
+	{"name":"1111", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/1111.png"},
 	{"name":"Magic1", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/Magic1.png"},
 	{"name":"Pandatv", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/Pandatv.png"},
 	{"name":"Peach1", "url":"https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/Peach1.png"},
