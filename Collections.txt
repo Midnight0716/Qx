@@ -1,7 +1,7 @@
 /*************************************
 
 [rewrite_local]
-# 哔哩哔哩 我的界面
+# 哔哩哔哩 用户信息
 https:\/\/app\.bilibili\.com\/x\/v2\/account\/mine url script-response-body bili.js
 
 # 彩云天气Pro 订阅
@@ -9,7 +9,7 @@ https:\/\/app\.bilibili\.com\/x\/v2\/account\/mine url script-response-body bili
 ^https:\/\/wrapper\.cyapi\.cn\/v1\/(satellite|nafp\/origin_images) url script-request-header caiyun.js
 
 # 滴答清单 订阅
-^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontent.com/Midnight0716/Qx/main/ddqd.js
+^https:\/\/dida365\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontent.com/Midnight0716/Qx/main/ddqd.js
 
 # Documents 订阅
 ^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/documents\/subscription\/refresh url script-request-body Documents.js
@@ -52,6 +52,6 @@ https://toblog.volceapplog.com/service/2/app_log url script-request-body https:/
 
 
 [mitm]
-hostname = app.bilibili.com, *.cyapi.cn, dida365.com, ticktick.com, license.pdfexpert.com, api.guoqi365.com, analysis.20kaka.cn, q12.tuanyougou.com, www.1314zhilv.com, ssl-api.itranslateapp.com, buy.itunes.apple.com, api.revenuecat.com, *.wps.cn, *.xhscdn.com, edith.xiaohongshu.com
+hostname = app.bilibili.com, *.cyapi.cn, dida365.com, license.pdfexpert.com, api.guoqi365.com, analysis.20kaka.cn, q12.tuanyougou.com, www.1314zhilv.com, ssl-api.itranslateapp.com, buy.itunes.apple.com, api.revenuecat.com, *.wps.cn, edith.xiaohongshu.com
 
 *************************************/
