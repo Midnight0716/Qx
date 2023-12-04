@@ -1,7 +1,7 @@
 /*************************************
 
 项目名称：旅途随身听
-软件版本：3.1.0
+软件版本：3.3.3
 下载地址：https://is.gd/nEjaIB
 使用声明：⚠️仅供参考，🈲转载与售卖！
 
@@ -24,6 +24,6 @@ body = body.replace(/\"isActivate":\d+/g,'\"isActivate":1');
 body = body.replace(/\"audioType":\d+/g, '\"audioType":1');
 body = body.replace(/\"isAudition":\d+/g, '\"isAudition":2');
 body = body.replace(/\"userName":".*?"/g,'\"userName":"Midnight"');
-body = body.replace(/\"headUrl":".*?"/g,'\"headUrl":"https://raw.githubusercontent.com/Midnight0716/Qx/main/fairy.jpg"');
+body = body.replace(/\"headUrl":".*?"/g,'\"headUrl":"https://ooo.0x0.ooo/2023/09/09/OnAori.jpg"');
 
 $done({body});
