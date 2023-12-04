@@ -23,6 +23,9 @@ body = body.replace(/\"levDesc":".*?"/g,'\"levDesc":"SVIP"');
 body = body.replace(/\"isActivate":\d+/g,'\"isActivate":1');
 body = body.replace(/\"audioType":\d+/g, '\"audioType":1');
 body = body.replace(/\"isAudition":\d+/g, '\"isAudition":2');
+body = body.replace(/\"isPermanent":\d+/g, '\"isPermanent":1');
+body = body.replace(/\"isPurchasedContent":\d+/g, '\"isPurchasedContent":1');
+body = body.replace(/\"touristEffectiveEquity":\d+/g, '\"touristEffectiveEquity":1');
 body = body.replace(/\"userName":".*?"/g,'\"userName":"Midnight"');
 body = body.replace(/\"headUrl":".*?"/g,'\"headUrl":"https://ooo.0x0.ooo/2023/09/09/OnAori.jpg"');
 
