@@ -19,7 +19,7 @@ hostname = www.1314zhilv.com
 var body = $response.body;
 
 body = body.replace(/\"identityType":\d+/g, '\"identityType":2');
-body = body.replace(/\"levDesc":".*?"/g,'\"levDesc":"SVIP"');
+body = body.replace(/\"levDesc":".*?"/g,'\"levDesc":"超级无敌宇宙级VIP中P"');
 body = body.replace(/\"isActivate":\d+/g,'\"isActivate":1');
 body = body.replace(/\"audioType":\d+/g, '\"audioType":1');
 body = body.replace(/\"isAudition":\d+/g, '\"isAudition":2');
