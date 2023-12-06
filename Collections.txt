@@ -8,9 +8,6 @@ https:\/\/app\.bilibili\.com\/x\/v2\/account\/mine url script-response-body bili
 ^https:\/\/biz\.cyapi\.cn\/v2\/user url script-response-body caiyun.js
 ^https:\/\/wrapper\.cyapi\.cn\/v1\/(satellite|nafp\/origin_images) url script-request-header caiyun.js
 
-# 滴答清单 订阅
-^https:\/\/dida365\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontent.com/Midnight0716/Qx/main/ddqd.js
-
 # Documents 订阅
 ^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/documents\/subscription\/refresh url script-request-body Documents.js
 
@@ -22,7 +19,7 @@ https:\/\/app\.bilibili\.com\/x\/v2\/account\/mine url script-response-body bili
 ^https?:\/\/q12\.tuanyougou\.com url script-response-body https://raw.githubusercontent.com/Midnight0716/Qx/main/hmqsy.js
 
 # 旅途随身听 订阅
-^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(user.*\/getInfo|guideScenic) url script-response-body https://raw.githubusercontent.com/Midnight0716/Qx/main/ltsst.js
+^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(user.*\/getInfo|guideScenic) url script-response-body ltsst.js
 
 # iTranslate 订阅
 ^https?:\/\/ssl-api\.itranslateapp\.com\/accounts\/.+\/(subscriptions\/verify|marketing\/consent\/status) url script-response-body https://raw.githubusercontent.com/Midnight0716/Qx/main/iTranslate.js
@@ -52,6 +49,6 @@ https://toblog.volceapplog.com/service/2/app_log url script-request-body https:/
 
 
 [mitm]
-hostname = app.bilibili.com, *.cyapi.cn, dida365.com, license.pdfexpert.com, api.guoqi365.com, analysis.20kaka.cn, q12.tuanyougou.com, www.1314zhilv.com, ssl-api.itranslateapp.com, buy.itunes.apple.com, api.revenuecat.com, *.wps.cn, edith.xiaohongshu.com
+hostname = app.bilibili.com, *.cyapi.cn, license.pdfexpert.com, api.guoqi365.com, analysis.20kaka.cn, q12.tuanyougou.com, www.1314zhilv.com, ssl-api.itranslateapp.com, buy.itunes.apple.com, api.revenuecat.com, *.wps.cn, edith.xiaohongshu.com
 
 *************************************/
