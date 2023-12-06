@@ -1,7 +1,6 @@
 /*
 
 财新去开屏广告
-@安妮
 
 [filter_local]
 host, gg.caixin.com, direct
