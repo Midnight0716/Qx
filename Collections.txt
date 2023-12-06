@@ -14,9 +14,8 @@ https:\/\/app\.bilibili\.com\/x\/v2\/account\/mine url script-response-body bili
 # 过期啦 订阅
 ^https:\/\/api\.guoqi365\.com\/1\.1\/functions\/getUserInfo url script-response-body https://raw.githubusercontent.com/Midnight0716/Qx/main/guoqila.js
 
-# 海绵去水印/功夫去水印 订阅
+# 功夫去水印 订阅
 ^https?:\/\/analysis\.20kaka\.cn\/api\/wechat url script-response-body https://raw.githubusercontent.com/Midnight0716/Qx/main/hmqsy.js
-^https?:\/\/q12\.tuanyougou\.com url script-response-body https://raw.githubusercontent.com/Midnight0716/Qx/main/hmqsy.js
 
 # 旅途随身听 订阅
 ^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(user.*\/getInfo|guideScenic) url script-response-body ltsst.js
@@ -49,6 +48,6 @@ https://toblog.volceapplog.com/service/2/app_log url script-request-body https:/
 
 
 [mitm]
-hostname = app.bilibili.com, *.cyapi.cn, license.pdfexpert.com, api.guoqi365.com, analysis.20kaka.cn, q12.tuanyougou.com, www.1314zhilv.com, ssl-api.itranslateapp.com, buy.itunes.apple.com, api.revenuecat.com, *.wps.cn, edith.xiaohongshu.com
+hostname = app.bilibili.com, *.cyapi.cn, license.pdfexpert.com, api.guoqi365.com, analysis.20kaka.cn, www.1314zhilv.com, ssl-api.itranslateapp.com, buy.itunes.apple.com, api.revenuecat.com, *.wps.cn, edith.xiaohongshu.com
 
 *************************************/
